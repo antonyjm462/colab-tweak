@@ -4,4 +4,4 @@ def getfiles():
     if len(_files) >0:
        for k,v in _files.items():
          open(k,'wb').write(v)
-getLocalFiles()
+getfiles()
